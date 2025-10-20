@@ -14,12 +14,3 @@ end
 
 assign led = ~LED_Display;                  // defines the value of the LED wire " the output goes to pins... "
 endmodule                                   // "~" is used to invert the counter, as the onboard LED are common anode
-
-
-// reg [5:0] (this is an array)
-// name [MSB:LSB] 
-
-// since th tang nano clock freq is 27Mhz
-// to see the LEDs light up we are going to
-// change the LED Display state every half second
-// ( waiting 3,500,000 click cycles  between incrimenting , this will be half a aecond)
